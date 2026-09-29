@@ -35,5 +35,19 @@ Thumbs.db
 Desktop.ini
 .DS_Store
 
+# Duplicate local clone of this repository
+/SDR/
+
+# Vitis/Eclipse workspace caches and local session state
+.metadata/
+.analytics
+RemoteSystemsTempFiles/
+IDE.log
+
+# Transient files in the imported board reference platform
+/docs/references/board/PlutoSky_7020_AD936X_SDR-Vivado2021.1 project/platform/.log/
+/docs/references/board/PlutoSky_7020_AD936X_SDR-Vivado2021.1 project/platform/logs/
+/docs/references/board/PlutoSky_7020_AD936X_SDR-Vivado2021.1 project/platform/tempdsa/
+
 # Do not blanket-ignore .xpr, .bd, .xci, .srcs or .gen.
 # Inspect source dependencies before excluding additional project files.
